@@ -78,14 +78,16 @@ export const projects = [
 export const testimonials = [
   {
     image: "https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/87/original/logo_dark_white_bg.jpg",
-    quote: "Stage 1-Full Stack Program, Stage-2 Career Services ",
-    name: "Graduated Feb 2022",
+    quote: "Stage 1-Full Stack Program, Stage-2 Landing A Job ",
+    date: "Attended: October 2021-Currently Enrolled",
+    name: "Completed Stage 1: Feb 2022",
     company: "VSchool, Salt Lake City, Utah",
   },
   {
     image: "https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/5/original/cd-logo-blue-600x600.png",
-    quote: "Full Stack Developer 3 week Web Fundamentals 14 week Full Stack Web Development",
-    name: "Graduated March 2021",
+    quote: "Full Time Student Developer 3 Full Stack Program",
+    date: "Attended: September 2020-March 2021",
+    name: "Graduated: March 2021",
     company: "Coding Dojo- Bellevue, Washington",
   },
 ];

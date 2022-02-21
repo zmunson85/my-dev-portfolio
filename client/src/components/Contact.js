@@ -16,10 +16,13 @@ export default function Contact() {
             .then((result) => {
                 alert(`${name}, Your Message Was Sent, Thank you for reaching out to me, I will get back to you soon! `)
                 console.log(result.text);
-                e.target.reset();
-            }, (error) => {
-                console.log(error.text);
-            });
+            },
+                (error) => {
+                    console.log(error.text);
+                });
+        setName("");
+        setEmail("");
+        setMessage("");
     }
 
     return (
@@ -53,10 +56,10 @@ export default function Contact() {
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                                 Get In Touch:
                             </h2>
-                            <a className="text-indigo-400 leading-relaxed">
+                            <h5 className="text-indigo-400 leading-relaxed">
                                 Please Contact me by Email!
 
-                            </a>
+                            </h5>
 
                         </div>
                     </div>
@@ -78,6 +81,7 @@ export default function Contact() {
                             Name
                         </label>
                         <input
+                            required
                             value={name}
                             type="text"
                             id="name"

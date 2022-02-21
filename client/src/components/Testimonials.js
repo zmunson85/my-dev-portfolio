@@ -26,6 +26,9 @@ export default function Testimonials() {
                                             {testimonial.company}
                                         </span>
                                         <span className="text-gray-500 text-sm uppercase">
+                                            {testimonial.date}
+                                        </span>
+                                        <span className="text-gray-500 text-sm uppercase">
                                             {testimonial.name}
                                         </span>
                                     </span>
